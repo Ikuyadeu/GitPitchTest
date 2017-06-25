@@ -61,7 +61,7 @@ settings.json(Windows: `ファイル > 基本設定 > 設定`， Mac: `Code > �
 ],
 "editor.renderControlCharacters": true
 ``` 
-@[36](MacのSierraを利用して場合に見えない記号を表示するために必要，そうでなければ消しても大丈夫)
+@[37](MacのSierraを利用して場合に見えない記号を表示するために必要，そうでなければ消しても大丈夫)
 
 ---
 
