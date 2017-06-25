@@ -11,10 +11,12 @@
 * まとめ
 
 ---
+
 ###  3 pages
 **Thankyou**
-*for heare*
+*for test*
 
 ---
+
 ## 結果
 https://gitpitch.com/Ikuyadeu/GitPitchTest/master
