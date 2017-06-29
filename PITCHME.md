@@ -1,6 +1,6 @@
-# Recommending and Localizing Change Requests for Mobile Apps based on User Reviews
+## Recommending and Localizing Change Requests for Mobile Apps based on User Reviews
 
-変更伝播は、主に保守履歴またはソースコード分析によって推定されています。しかし、履歴やコードにアクセスできない場合や、異機種ソースなどの分析に非現実的な場合があります。以前は、ドメインレベルのコンポーネントを変更することによる変化の伝播は、純粋にドメインユーザーが利用できる情報から予測できると仮定しました。我々は、ドメインベースの変化伝播解析を提案し、アナリストとドメインの専門家が実装とは独立した概念的な結合を予測できるようにした。本稿では、重要な（エンタープライズ）システムへのドメインベースの分析の適用について報告します。ドメインベースの分析とよく知られた履歴ベースの分析の両方を行い、結果を比較しました。ヒストリベースのアプローチと同様に、ドメインベースの分析により、ソフトウェアコンポーネント間の結合が明らかになり、ソフトウェアメンテナンスのエラーを防止し、変化の伝播を予測するのに役立ちます。確立されたアプローチが非実用的であると考えられる特定の種類のシステムに適用する価値があると結論づける。
+<!--変更伝播は、主に保守履歴またはソースコード分析によって推定されています。しかし、履歴やコードにアクセスできない場合や、異機種ソースなどの分析に非現実的な場合があります。以前は、ドメインレベルのコンポーネントを変更することによる変化の伝播は、純粋にドメインユーザーが利用できる情報から予測できると仮定しました。我々は、ドメインベースの変化伝播解析を提案し、アナリストとドメインの専門家が実装とは独立した概念的な結合を予測できるようにした。本稿では、重要な（エンタープライズ）システムへのドメインベースの分析の適用について報告します。ドメインベースの分析とよく知られた履歴ベースの分析の両方を行い、結果を比較しました。ヒストリベースのアプローチと同様に、ドメインベースの分析により、ソフトウェアコンポーネント間の結合が明らかになり、ソフトウェアメンテナンスのエラーを防止し、変化の伝播を予測するのに役立ちます。確立されたアプローチが非実用的であると考えられる特定の種類のシステムに適用する価値があると結論づける。-->
 
 ## Change Advisor
 * Parse Source Code to Code Compornent(like Class)
@@ -29,8 +29,8 @@
 ### RQ1: Does CHANGEADVISOR identify cohesive user feedback clusters representing related change requests?
 They asked the experts to rate the cohesiveness of clusters using a Likert scale(five-level) 5+ years experience()
 
-Median = 4(Agree)
-Max = 5(Strongly agree)
+* Median = 4(Agree)
+* Max = 5(Strongly agree)
 
 <!--リッカート尺度
 全く同意できない
@@ -41,8 +41,8 @@ Max = 5(Strongly agree)
 
 ---
 
-### RQ2: Does CHANGEADVISOR correctly link change requests represented by user feedback clusters to code artifacts that need to be modified and how well it works compared to a state-of-the-art technique relating informal textual documentation to source code?
-####Compare BLUiR
+##### RQ2: Does CHANGEADVISOR correctly link change requests represented by user feedback clusters to code artifacts that need to be modified and how well it works compared to a state-of-the-art technique relating informal textual documentation to source code?
+######Compare BLUiR
 
 * ChangeAdvisor
     * Precision:81%
