@@ -29,7 +29,7 @@ Lucia, Andrea De
     * Extract word in Class
 * FeedBack
     * Classified by ARdoc(App Reviews Development Oriented Classifier)
-    * Grouping similar user needs by HDP-LDA
+    * Grouping similar user needs by HDP-LDA<!-- トピックの推定を行う -->
 ---
 
 * RQ1: Does CHANGEADVISOR identify cohesive user feedback clusters representing related change requests?
@@ -49,7 +49,7 @@ Lucia, Andrea De
 
 ---
 
-RQ1: Does CHANGEADVISOR identify cohesive user feedback clusters representing related change requests?
+**RQ1: Does CHANGEADVISOR identify cohesive user feedback clusters representing related change requests?**
 
 They asked the experts to rate<!-- ５年以上 --> the cohesiveness of clusters using a Likert scale(five-level)
 
@@ -65,13 +65,14 @@ They asked the experts to rate<!-- ５年以上 --> the cohesiveness of clusters
 
 ---
 
-RQ2: Does CHANGEADVISOR correctly link change requests represented by user feedback clusters to code artifacts that need to be modified and how well it works compared to a state-of-the-art technique relating informal textual documentation to source code?
+**RQ2: Does CHANGEADVISOR correctly link change requests represented by user feedback clusters to code artifacts that need to be modified and how well it works compared to a state-of-the-art technique relating informal textual documentation to source code?**
 
 Comparison between ChangeAdvisor and "BLUiR"
 
 ---
 #### Comparison between ChangeAdvisor and BLUiR
 
+Change Advisor better than BLUiR
 ```markdown
 * ChangeAdvisor
     * Precision:81%
