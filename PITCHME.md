@@ -12,7 +12,7 @@ Lucia, Andrea De
 
 ---
 
-## Change Advisor
+## Develop "Change Advisor"
 1. user feedback identification and classification (i.e., bug fixing tasks, features enhancement, and new features requests);
 2. source code and user feedback preprocessing; 
 3. user feedback clustering, representing similar user needs (i.e., code change requests);
@@ -49,8 +49,9 @@ Lucia, Andrea De
 
 ---
 
-### RQ1: Does CHANGEADVISOR identify cohesive user feedback clusters representing related change requests?
-They asked the experts to rate the cohesiveness of clusters using a Likert scale(five-level) 5+ years experience()
+RQ1: Does CHANGEADVISOR identify cohesive user feedback clusters representing related change requests?
+
+They asked the experts to rate<!-- ５年以上 --> the cohesiveness of clusters using a Likert scale(five-level)
 
 * Median = 4(Agree)
 * Max = 5(Strongly agree)
@@ -64,13 +65,14 @@ They asked the experts to rate the cohesiveness of clusters using a Likert scale
 
 ---
 
-##### RQ2: Does CHANGEADVISOR correctly link change requests represented by user feedback clusters to code artifacts that need to be modified and how well it works compared to a state-of-the-art technique relating informal textual documentation to source code?
+RQ2: Does CHANGEADVISOR correctly link change requests represented by user feedback clusters to code artifacts that need to be modified and how well it works compared to a state-of-the-art technique relating informal textual documentation to source code?
 
 Comparison between ChangeAdvisor and "BLUiR"
 
 ---
 #### Comparison between ChangeAdvisor and BLUiR
-```
+
+```markdown
 * ChangeAdvisor
     * Precision:81%
     * Recall:70%
